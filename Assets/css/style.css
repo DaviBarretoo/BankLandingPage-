@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    color: white;
+}
+body{
+    background-image: url("../img/bgfundo.svg");
+    background-color: rgb(0, 0, 0);
+    background-size: cover; 
+    background-position: center ; 
+    background-repeat: no-repeat;
+  
+    
+}
+
+
+:root{
+    --color-principal: #2BB32A;
+    --color-text: white;
+}
+
+.principal-header{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.principal-header img{
+    margin-left: 3rem;
+}
+
+.links-menu a{
+    color: var(--color-text); 
+    height: auto;
+    font-size: 1.9rem;
+    margin-right: 3rem;
+    text-decoration: none;
+    
+}
+
+.button-header{
+    
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1.5rem;
+   padding: 1.2rem 2.4rem;
+   margin-right: 3rem;
+    border: 0.2rem  solid var( --color-principal);
+    border-radius: 3rem;
+    
+}
+.button-header a {
+    color: var(--color-principal);
+    text-decoration: none;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links-menu a:hover{
+    color: var(--color-principal);
+
+}
+
+.discover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     padding-left: 5rem;
+    padding-top: 5rem; 
+    padding-right: 5rem;
+    width: auto;
+    height: auto;
+    
+}
+
+.discover h1{
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-content-discover{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+     width:auto;
+    height: auto;
+ 
+
+}
+
+.config-main {
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    
+ }
+
+.config-main img {
+    width: 10rem;
+    height: 10rem;
+}
+
+
+.config-main2 {
+    margin-left: 2rem;
+    color: var(--color-text);
+    display: flex;
+    font-size: 2rem;
+    flex-direction: column;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+.right-content-discover img{
+   width: 60rem;
+   height: 90rem;
+}
+
+.dicover-button{
+    display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-color: var(--color-principal);
+padding: 2rem;
+border: none;
+border-radius: 3rem ;
+margin-top: 5rem;
+margin-bottom: 2rem;
+width: 20vh;
+height: 5rem;
+
+
+
+}
+
+.dicover-button a{
+    text-decoration: none;
+font-size: 1.5rem;
+    color: var(--color-text);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.experience{
+    margin-left: 8rem;
+    margin-right: 8rem ;
+    padding: 5rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    background-color: rgba(255, 255, 255, 0.205);
+    word-wrap: break-word;
+    margin-bottom: 10rem;
+}
+
+.experience h1{
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.experience p {
+    color: var(--color-principal);
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
