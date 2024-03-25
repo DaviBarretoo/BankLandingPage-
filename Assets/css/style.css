@@ -279,6 +279,13 @@ margin-top: 4rem;
     
     background: linear-gradient(#2BB32A, rgb(2, 92, 2));
     border-radius: 1rem;
+    
+}
+
+::-webkit-scrollbar-thumb:hover{
+    
+    background: linear-gradient(#00ff00, rgb(11, 116, 2));
+    border-radius: 1rem;
 }
 
 
